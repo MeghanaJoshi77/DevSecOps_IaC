@@ -1,1 +1,2 @@
 # DevSecOps
+The CI/CD pipeline built to implement IaC in AWS cloud environment and it uses DevSecOps approach. The project ensures security with KICS scanning to detect misconfigured files. SonarQube is used for code quality to perform automatic reviews with static analysis of code to detect bugs (SAST), Trufflehog for secret scanning and Trivy for vulnerability assesment. Docker is used for smooth installation of SonarQube, Trufflehog and Trivy. The objective being automated deployments, improved collaboration, and robust security.
